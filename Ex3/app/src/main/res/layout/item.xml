@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="15dp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_phone_iphone_24"></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:id="@+id/tvItem"
+        android:text="Apple"
+        android:layout_weight="1"></TextView>
+    <CheckBox
+        android:id="@+id/chkItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></CheckBox>
+
+</LinearLayout>
